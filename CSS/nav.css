@@ -1,0 +1,80 @@
+ @font-face
+ {
+     font-family: cyber;
+     src: url("../Fonts/GlitchShift.ttf");
+ }
+  
+ @font-face
+ {
+     font-family: cyber1;
+     src: url("../Fonts/Glitch\ Shift\ Clean.ttf");
+ }
+  .nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: fixed;
+    background-color: #34a6c2;
+    height: 70px;
+    width: 60%;
+    top: 20px;
+    left: 0;
+  }
+  .nav1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    background-color: #74858a;
+    height: 70px;
+    width: 29%;
+    top: 20px;
+    right: 0;
+  }
+  .nav a {
+    position:relative;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-bottom: 0%;
+    font-family: monospace;
+  }
+  .nav1 a {
+    position:relative;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    font-family: cyber1;
+    transition: 0.5s;
+  }
+  .nav1 a:hover {
+    
+    font-family: cyber;
+    text-shadow: 0 0 2px #92787800, 0 0 5px #fff9f900, 0 0 7px #fff9f900, 0 0 10px #89d3f0cb, 0 0 13px #89d3f0cb;
+  }
+  
+  .triangle-end {
+    position: absolute;
+    left: 60%;
+    top: 20px;
+    display: inline-block;
+    width: 0; 
+    height: 0; 
+    border-bottom: 70px solid transparent;
+    /* adjust border-left for overall width */
+    border-left: 150px solid #34a6c2;
+  }
+  .triangle-ini {
+    position: absolute;
+    left: 60%;
+    top: 20px;
+    display: inline-block;
+    width: 0; 
+    height: 0; 
+    border-top: 70px solid transparent;
+    /* adjust border-left for overall width */
+    border-right: 150px solid #74858a;
+  }

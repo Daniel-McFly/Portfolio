@@ -32,7 +32,7 @@
 </head>
 <body>
 	<?php
-		
+		$var = '20';
 	?>
     <nav class="nav" id="nav">
         <a href="#"><img src="img/logo.png" width="10%"></a>

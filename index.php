@@ -31,6 +31,9 @@
 	</script>
 </head>
 <body>
+	<?php
+		
+	?>
     <nav class="nav" id="nav">
         <a href="#"><img src="img/logo.png" width="10%"></a>
       </nav>
